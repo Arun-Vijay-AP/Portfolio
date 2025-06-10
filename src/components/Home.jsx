@@ -175,28 +175,30 @@ const Skills = () => {
 
 const CodingProfile = () => {
   return (
-    <div className="px-16 py-20 bg-green-50">
-      <h2 className="text-4xl font-extrabold text-blue-900 mb-12 text-center">
+    <div className="px-4 sm:px-8 md:px-16 py-10 sm:py-16 md:py-20 bg-green-50">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-blue-900 mb-8 sm:mb-10 md:mb-12 text-center">
         Coding Profile
       </h2>
 
-      <div className="space-y-10 max-w-3xl mx-auto">
+      <div className="space-y-6 sm:space-y-8 md:space-y-10 max-w-3xl mx-auto">
         {/* LeetCode */}
         <a
           href="https://leetcode.com/u/aparunvijay/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-between items-center bg-green-50 rounded-2xl shadow-md px-6 py-4 hover:shadow-lg transition-shadow"
+          className="flex flex-col sm:flex-row justify-between items-center bg-green-50 rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow"
         >
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3 sm:space-x-4 mb-3 sm:mb-0">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
               alt="LeetCode"
-              className="h-10"
+              className="h-8 sm:h-10"
             />
-            <span className="text-xl font-semibold text-blue-900">LeetCode</span>
+            <span className="text-lg sm:text-xl font-semibold text-blue-900">LeetCode</span>
           </div>
-          <span className="text-lg font-bold text-blue-800">200+ Problems Solved</span>
+          <span className="text-base sm:text-lg font-bold text-blue-800 text-center sm:text-right">
+            200+ Problems Solved
+          </span>
         </a>
 
         {/* GeeksforGeeks */}
@@ -204,17 +206,19 @@ const CodingProfile = () => {
           href="https://www.geeksforgeeks.org/user/aparunthejr6x/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-between items-center bg-green-50 rounded-2xl shadow-md px-6 py-4 hover:shadow-lg transition-shadow"
+          className="flex flex-col sm:flex-row justify-between items-center bg-green-50 rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow"
         >
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3 sm:space-x-4 mb-3 sm:mb-0">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
               alt="GeeksforGeeks"
-              className="h-10"
+              className="h-8 sm:h-10"
             />
-            <span className="text-xl font-semibold text-blue-900">GeeksforGeeks</span>
+            <span className="text-lg sm:text-xl font-semibold text-blue-900">GeeksforGeeks</span>
           </div>
-          <span className="text-lg font-bold text-blue-800">50+ Problems Solved</span>
+          <span className="text-base sm:text-lg font-bold text-blue-800 text-center sm:text-right">
+            50+ Problems Solved
+          </span>
         </a>
 
         {/* SkillRack */}
@@ -222,22 +226,25 @@ const CodingProfile = () => {
           href="http://www.skillrack.com/profile/407671/0872be4ce313fc357d3d645b8403e9b0b7937916"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-between items-center bg-green-50 rounded-2xl shadow-md px-6 py-4 hover:shadow-lg transition-shadow"
+          className="flex flex-col sm:flex-row justify-between items-center bg-green-50 rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow"
         >
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3 sm:space-x-4 mb-3 sm:mb-0">
             <img
               src="https://ugc.production.linktr.ee/32b70a01-77b7-4804-85a1-e371da9ed2db_aUapl7nz-400x400.jpeg?io=true&size=thumbnail-stack-v1_0"
               alt="SkillRack"
-              className="h-10"
+              className="h-8 sm:h-10"
             />
-            <span className="text-xl font-semibold text-blue-900">SkillRack</span>
+            <span className="text-lg sm:text-xl font-semibold text-blue-900">SkillRack</span>
           </div>
-          <span className="text-lg font-bold text-blue-800">1200+ Problems Solved</span>
+          <span className="text-base sm:text-lg font-bold text-blue-800 text-center sm:text-right">
+            1200+ Problems Solved
+          </span>
         </a>
       </div>
     </div>
   );
 };
+
 
 
 const HomePage = () => {
