@@ -10,7 +10,7 @@ const Home = () => {
 
       {/* Left Side */}
       <div className="md:w-1/2 space-y-6">
-        <h1 className="text-5xl font-extrabold text-blue-900">
+        <h1 className="text-5xl font-extrabold bg-gradient-to-r from-cyan-500 via-blue-600 to-blue-950 bg-clip-text text-transparent">
           Arun Vijay AP
         </h1>
 
@@ -162,7 +162,7 @@ const CodingProfile = () => {
             <span className="text-lg sm:text-xl font-semibold text-blue-900">LeetCode</span>
           </div>
           <span className="text-base sm:text-lg font-bold text-blue-800 text-center sm:text-right">
-            200+ Problems Solved
+            250+ Problems Solved
           </span>
         </a>
 

@@ -37,7 +37,7 @@ const Contact = () => {
       {/* Top Section */}
       <div className="flex flex-col md:flex-row items-center gap-60">
         <img
-          src="weblogo.png"
+          src="APimg.jpg"
           alt="Avatar"
           className="w-72 h-72 rounded-full border-4 border-black object-cover"
         />
@@ -50,11 +50,11 @@ const Contact = () => {
           </p>
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-4 text-2xl mb-4">
-            <a href="https://github.com/Arun-Vijay-AP" target="_blank" rel="noreferrer">
-              <FaGithub className="hover:text-black" />
-            </a>
             <a href="https://www.linkedin.com/in/arun-vijay-ap/" target="_blank" rel="noreferrer">
               <FaLinkedin className="hover:text-blue-700" />
+            </a>
+            <a href="https://github.com/Arun-Vijay-AP" target="_blank" rel="noreferrer">
+              <FaGithub className="hover:text-black" />
             </a>
             <a href="https://twitter.com/" target="_blank" rel="noreferrer">
               <FaXTwitter className="hover:text-black" />
@@ -68,7 +68,7 @@ const Contact = () => {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1fKC4VlECzLTYDg9kfu-p_GI9JF4La2rR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1u1MtGfJl_TkmXHUZN18zHcksA139jD9P/view?usp=sharing"
             className="inline-block bg-blue-900 text-white font-semibold py-2 px-5 rounded hover:bg-blue-800"
           >
             See My Resume
