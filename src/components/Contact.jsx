@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-green-50 min-h-screen flex flex-col items-center px-4 py-16">
+    <section className="bg-slate-300 min-h-screen flex flex-col items-center px-4 py-16">
       {/* Top Section */}
       <div className="flex flex-col md:flex-row items-center gap-60">
         <img
@@ -43,7 +43,7 @@ const Contact = () => {
         />
         <div className="text-center md:text-left">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Contact Me</h2>
-          <p className="text-slate-600 max-w-lg mb-6">
+          <p className="text-gray-800 max-w-lg mb-6">
             I am available on social media. You can message me, I will reply
             within 24 hours. I can help you with React, ML, AI, Cloud and
             Opensource Development.

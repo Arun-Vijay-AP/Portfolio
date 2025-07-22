@@ -1,18 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { FaFire } from 'react-icons/fa';
 import { div } from "motion/react-client";
 
 
 const Home = () => {
+  const fullText = "Creative Developer";
+  const [displayText, setDisplayText] = useState("");
+
+  useEffect(() => {
+    let index = 0;
+    const timer = setInterval(() => {
+      if (index <= fullText.length) {
+        setDisplayText(fullText.slice(0, index));
+        index++;
+      } else {
+        clearInterval(timer);
+      }
+    }, 150);
+
+    return () => clearInterval(timer);
+  }, [fullText]);
+
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-16 py-20 bg-green-50 min-h-screen">
+    <div className="flex flex-col md:flex-row items-center justify-between px-16 py-20 bg-slate-300 min-h-screen">
 
       {/* Left Side */}
       <div className="md:w-1/2 space-y-6">
-        <h1 className="text-5xl font-extrabold bg-gradient-to-r from-cyan-500 via-blue-600 to-blue-950 bg-clip-text text-transparent">
+        <h1 className="text-6xl ml-36 pb-3 font-extrabold bg-gradient-to-r from-cyan-500 via-blue-600 to-blue-950 bg-clip-text text-transparent">
           Arun Vijay AP
         </h1>
+        <div className="text-4xl md:text-6xl font-bold text-foreground h-20 flex items-center justify-center">
+          <h1 className="border-r-2 border-primary animate-bounce pr-2 pb-2 magnetic bg-gradient-to-r bg-clip-text from-slate-700 via-slate-600 via-slate-500 via-blue-300 via-blue-500 to-blue-700 text-transparent">
+            {displayText}
+          </h1>
+        </div>
 
         <p className="text-xl text-gray-600 mt-4">
           A driven creator focused on crafting scalable, sustainable solutions that blend technology and impact to make a real difference.
@@ -46,7 +68,7 @@ const Home = () => {
 
 const Skills = () => {
   return (
-    <div className="px-6 md:px-16 py-16 bg-green-50">
+    <div className="px-6 md:px-16 py-16 bg-slate-300">
       <h2 className="text-4xl font-extrabold text-blue-900 mb-12 text-center">
         What I Do?
       </h2>
@@ -102,8 +124,9 @@ const Skills = () => {
         ].map((section, index) => (
           <div
             key={index}
-            className="p-6 bg-green-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full max-w-md mx-auto"
+            className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full max-w-md mx-auto border border-transparent hover:border-4 hover:border-blue-500"
           >
+
             <h2 className="text-2xl font-bold text-center text-blue-900 mb-6">
               {section.title}
             </h2>
@@ -140,7 +163,7 @@ const Skills = () => {
 
 const CodingProfile = () => {
   return (
-    <div className="px-4 sm:px-8 md:px-16 py-10 sm:py-16 md:py-20 bg-green-50">
+    <div className="px-4 sm:px-8 md:px-16 py-10 sm:py-16 md:py-20 bg-slate-300">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-blue-900 mb-8 sm:mb-10 md:mb-12 text-center">
         Coding Profile
       </h2>
@@ -151,7 +174,7 @@ const CodingProfile = () => {
           href="https://leetcode.com/u/aparunvijay/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col sm:flex-row justify-between items-center bg-green-50 rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow"
+          className="flex flex-col sm:flex-row justify-between items-center bg-white rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow border border-transparent hover:border-orange-600 hover:border-4"
         >
           <div className="flex items-center space-x-3 sm:space-x-4 mb-3 sm:mb-0">
             <img
@@ -171,7 +194,7 @@ const CodingProfile = () => {
           href="https://www.geeksforgeeks.org/user/aparunthejr6x/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col sm:flex-row justify-between items-center bg-green-50 rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow"
+          className="flex flex-col sm:flex-row justify-between items-center bg-white rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow border border-transparent hover:border-green-600 hover:border-4"
         >
           <div className="flex items-center space-x-3 sm:space-x-4 mb-3 sm:mb-0">
             <img
@@ -191,7 +214,7 @@ const CodingProfile = () => {
           href="http://www.skillrack.com/profile/407671/0872be4ce313fc357d3d645b8403e9b0b7937916"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col sm:flex-row justify-between items-center bg-green-50 rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow"
+          className="flex flex-col sm:flex-row justify-between items-center bg-white rounded-2xl shadow-md px-4 sm:px-6 py-4 hover:shadow-lg transition-shadow border border-transparent hover:border-blue-600 hover:border-4"
         >
           <div className="flex items-center space-x-3 sm:space-x-4 mb-3 sm:mb-0">
             <img

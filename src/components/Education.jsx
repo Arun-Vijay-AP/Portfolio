@@ -2,13 +2,13 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <div className="bg-green-50 min-h-screen px-4 sm:px-6 md:px-8 py-16">
+    <div className="bg-slate-300 min-h-screen px-4 sm:px-6 md:px-8 py-16">
       <h2 className="text-3xl sm:text-4xl font-bold text-center text-blue-900 mb-12">
         Education
       </h2>
 
       {/* St. Joseph’s Institute of Technology */}
-      <div className="flex flex-col md:flex-row items-start bg-green-100 rounded-xl shadow-md p-6 mb-10 max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row items-start bg-white rounded-xl shadow-md p-6 mb-10 max-w-5xl mx-auto border border-transparent hover:border-blue-500 hover:border-4">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQCmT18MthwZuSNhssTyKdMTYkEeIwZCofqw&s"
           alt="St. Joseph's Logo"
@@ -31,7 +31,7 @@ const Education = () => {
       </div>
 
       {/* Sri Vignesh Vidyalaya */}
-      <div className="flex flex-col md:flex-row items-start bg-green-100 rounded-xl shadow-md p-6 max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row items-start bg-white rounded-xl shadow-md p-6 max-w-5xl mx-auto border border-transparent hover:border-blue-500 hover:border-4">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqOdsbVtbsmwrIm3pbK3c0vxDKLhMkpdvLQ&s"
           alt="Sri Vignesh Vidyalaya Logo"
