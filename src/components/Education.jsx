@@ -25,7 +25,7 @@ const Education = () => {
             B.Tech (Artificial Intelligence and Data Science)
           </h4>
           <ul className="list-none space-y-1 text-blue-900 text-sm sm:text-base">
-            <li>⚡ CGPA: 8.58</li>
+            <li>⚡ CGPA: 8.60</li>
           </ul>
         </div>
       </div>

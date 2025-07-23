@@ -27,7 +27,7 @@ const Home = () => {
 
       {/* Left Side */}
       <div className="md:w-1/2 space-y-6">
-        <h1 className="text-6xl ml-36 pb-3 font-extrabold bg-gradient-to-r from-cyan-500 via-blue-600 to-blue-950 bg-clip-text text-transparent">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl ml-4 sm:ml-10 md:ml-24 lg:ml-36 pb-3 font-extrabold bg-gradient-to-r from-cyan-500 via-blue-600 to-blue-950 bg-clip-text text-transparent">
           Arun Vijay AP
         </h1>
         <div className="text-4xl md:text-6xl font-bold text-foreground h-20 flex items-center justify-center">
