@@ -84,6 +84,7 @@ const Skills = () => {
               { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg", label: "SASS" },
               { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", label: "JavaScript" },
               { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", label: "React" },
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg", label: "FastAPI" },
               { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg", label: "Node.js" },
               { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg", label: "NPM" },
               { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg", label: "Express" },
@@ -94,6 +95,23 @@ const Skills = () => {
               "Developed responsive and dynamic web interfaces using React",
               "Developing web applications using MERN",
               "Engineered robust backend services using Node.js, Express, and Flask for scalable web applications.",
+            ],
+          },
+          {
+            title: "Java & Spring Boot Development",
+            tech: [
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg", label: "Java" },
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg", label: "Spring Boot" },
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg", label: "Maven" },
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/hibernate/hibernate-original.svg", label: "Hibernate" },
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg", label: "MySQL" },
+              { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg", label: "Docker" },
+            
+            ],
+            points: [
+              "Built scalable REST APIs and microservices using Spring Boot",
+              "Integrated Hibernate/JPA for seamless ORM and database management",
+              "Optimized backend performance through caching, connection pooling, and profiling"
             ],
           },
           {

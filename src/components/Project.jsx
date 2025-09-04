@@ -11,6 +11,7 @@ import {
   SiTailwindcss,
   SiExpress,
   SiNodedotjs,
+  SiFastapi,
 } from "react-icons/si";
 
 const projectData = [
@@ -21,6 +22,14 @@ const projectData = [
       "Smart farming system using real-time IoT sensor data with Arduino. Data visualization & analytics for agriculture.",
     tech: [<SiPython />, <SiReact />, <SiFlask />, <SiArduino />],
     github: "https://github.com/Arun-Vijay-AP/Crop-Sense-React",
+  },
+  {
+    img: "HireEase.png",
+    name: "HireEase",
+    description:
+      "AI-powered recruitment system with resume parsing & candidate shortlisting. Interactive dashboards for recruiters & candidates.",
+    tech: [<SiPython />, <SiReact />, <SiFastapi />, <SiTailwindcss />],
+    github: "https://github.com/Arun-Vijay-AP/HireEase",
   },
   {
     img: "feelsync.png",
@@ -36,7 +45,7 @@ const projectData = [
     description:
       "Image dehazing using ML to enhance image clarity by reducing smoke effects. Useful in photography, surveillance, and monitoring.",
     tech: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
-    github: "",
+    github: "https://github.com/Arun-Vijay-AP",
   },
   {
     img: "tourism.png",
