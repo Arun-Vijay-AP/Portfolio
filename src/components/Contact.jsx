@@ -68,7 +68,7 @@ const Contact = () => {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1u1MtGfJl_TkmXHUZN18zHcksA139jD9P/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ygbuIkwamYy2FUdDgQzxyxJ9zDVbdxxY/view?usp=sharing"
             className="inline-block bg-blue-900 text-white font-semibold py-2 px-5 rounded hover:bg-blue-800"
           >
             See My Resume

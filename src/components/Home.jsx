@@ -81,7 +81,6 @@ const Skills = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 gap-y-20">
-          {/** Reusable Card Component */}
           {[
             {
               title: "Full Stack Development",
@@ -141,7 +140,7 @@ const Skills = () => {
             {
               title: "Cloud Infra-Architecture",
               tech: [
-                { src: "https://miro.medium.com/v2/resize:fit:1400/1*neG4D9C8UcJvNn6bverfIA.png", label: "AWS" },
+                { src: "https://signin.aws.amazon.com/static/image/aws_logo_smile.png", label: "AWS" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg", label: "MongoDB" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg", label: "Jenkins" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg", label: "Docker" },
@@ -158,10 +157,9 @@ const Skills = () => {
               key={index}
               className="group relative p-8 bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 w-full max-w-md mx-auto border-2 border-white/20 hover:border-white/40 overflow-hidden"
             >
-              {/* Card background gradient overlay */}
+
               <div className={`absolute inset-0 bg-gradient-to-br ${section.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500 rounded-3xl`}></div>
 
-              {/* Animated border glow */}
               <div className={`absolute -inset-1 bg-gradient-to-r ${section.gradient} rounded-3xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-500 -z-10`}></div>
 
               <div className="relative z-10">
@@ -251,7 +249,7 @@ const CodingProfile = () => {
 
             <div className="relative z-10 text-base sm:text-lg font-bold text-center sm:text-right">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-600 group-hover:from-orange-700 group-hover:to-yellow-700 transition-all duration-300">
-                250+ Problems Solved
+                300+ Problems Solved
               </span>
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
             </div>
