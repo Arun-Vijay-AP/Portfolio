@@ -110,6 +110,7 @@ const Skills = () => {
               tech: [
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg", label: "Java" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg", label: "Spring Boot" },
+                { src: "https://d1nhio0ox7pgb.cloudfront.net/_img/v_collection_png/512x512/shadow/data_view.png", label: "JDBC" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg", label: "Maven" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/hibernate/hibernate-original.svg", label: "Hibernate" },
                 { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg", label: "MySQL" },
@@ -286,7 +287,7 @@ const CodingProfile = () => {
 
             <div className="relative z-10 text-base sm:text-lg font-bold text-center sm:text-right">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600 group-hover:from-green-700 group-hover:to-emerald-700 transition-all duration-300">
-                50+ Problems Solved
+                100+ Problems Solved
               </span>
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
             </div>
