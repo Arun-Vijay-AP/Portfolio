@@ -23,7 +23,7 @@ const Home = () => {
   }, [fullText]);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-16 py-20 bg-slate-300 min-h-screen">
+    <div className="flex flex-col md:flex-row items-center justify-between px-16 py-20 bg-slate-200 min-h-screen">
 
       {/* Left Side */}
       <div className="md:w-1/2 space-y-6">
@@ -68,7 +68,7 @@ const Home = () => {
 
 const Skills = () => {
   return (
-    <div className="px-6 md:px-16 py-16 bg-slate-300 relative overflow-hidden">
+    <div className="px-6 md:px-16 py-16 bg-slate-200 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
@@ -208,7 +208,7 @@ const Skills = () => {
 
 const CodingProfile = () => {
   return (
-    <div className="px-4 sm:px-8 md:px-16 py-10 sm:py-16 md:py-20 bg-slate-300 relative overflow-hidden">
+    <div className="px-4 sm:px-8 md:px-16 py-10 sm:py-16 md:py-20 bg-slate-200 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-72 h-72 bg-orange-500 rounded-full blur-3xl"></div>
@@ -217,7 +217,7 @@ const CodingProfile = () => {
       </div>
 
       <div className="relative z-10">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-700 to-purple-600 mb-8 sm:mb-10 md:mb-12 text-center drop-shadow-sm">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-700 to-purple-600 pb-5 mb-8 sm:mb-10 md:mb-12 text-center drop-shadow-sm">
           Coding Profile
         </h2>
 

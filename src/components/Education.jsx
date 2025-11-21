@@ -24,7 +24,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-slate-300 px-6 md:px-16 py-32 relative overflow-hidden">
+    <div className="w-full min-h-screen bg-slate-200 px-6 md:px-16 py-32 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl"></div>
@@ -32,7 +32,7 @@ const Education = () => {
       </div>
 
       <div className="relative z-10">
-        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-700 to-purple-600 mb-12 text-center drop-shadow-sm">
+        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-700 to-purple-600 mb-12 pb-2 text-center drop-shadow-sm">
           Education
         </h2>
 

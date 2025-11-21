@@ -81,7 +81,7 @@ const projectData = [
 
 const Project = () => {
   return (
-    <div className="w-full min-h-screen bg-slate-300 px-6 md:px-16 py-16 relative overflow-hidden">
+    <div className="w-full min-h-screen bg-slate-200 px-6 md:px-16 py-16 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl"></div>
@@ -89,11 +89,11 @@ const Project = () => {
       </div>
 
       <div className="relative z-10">
-        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-700 to-purple-600 mb-16 text-center drop-shadow-sm">
+        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-700 to-purple-600 mb-16 pb-2 text-center drop-shadow-sm">
           Projects
         </h2>
         {/* Header section with image on left and description on right */}
-        <div className="flex flex-col md:flex-row items-center justify-between bg-slate-300 rounded-xl px-10 py-10 mb-16">
+        <div className="flex flex-col md:flex-row items-center justify-between bg-slate-200 rounded-xl px-10 py-10 mb-16">
           <div className="md:w-1/2 flex justify-center mb-10 md:mb-0">
             <img
               src="/projectlogo.png"

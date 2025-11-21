@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-slate-300 min-h-screen flex flex-col items-center px-4 py-16">
+    <section className="bg-slate-200 min-h-screen flex flex-col items-center px-4 py-16">
       {/* Top Section */}
       <div className="flex flex-col md:flex-row items-center gap-60">
         <img
